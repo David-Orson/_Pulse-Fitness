@@ -1,0 +1,205 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title--accentColor{
+    color: $accent-color;
+}
+
+.nav {    
+    background: $base-color1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img{
+        margin-bottom: -30px;
+        margin-top: -30px;
+    }
+}
+
+.header{    
+    display: flex;
+    justify-content: space-evenly;
+
+    @include mobile {
+        display: block;
+    }
+}
+
+.cta{
+    padding: 20px;
+}
+
+.photo{
+    width: 50%;
+    display: flex;
+    
+    @include mobile{
+        width: 100%;
+    }
+}
+
+.header__right{    
+    color: white;
+    background: $base-color2;
+    width: 50vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(41, 41, 41);
+
+    @include mobile{
+        width: 100%;
+
+        img{
+            width: 80px;
+        }
+    }
+}
+
+.cta__img{
+    width: 50%;
+}
+
+.photo__img {
+    width: 100%;
+    @include mobile{
+        max-height: 40vh;
+    }
+}
+
+.titleBanner{
+    background-color: $base-color1;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__title{
+        color: $base-color2;
+        font-weight: 900;
+        font-size: 2.5em;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: rgb(41, 41, 41)
+    }
+}
+
+.section{
+    display: flex;
+    background: white;
+    justify-content: center;
+
+    img{
+        width: 100%;
+    }
+
+    &__facilities{
+        display: flex;
+
+        @include mobile {
+            display: block;
+        }
+    }
+
+    @include mobile{
+        display: block;
+    }
+}
+
+.facilities__card{
+    margin: 25px;
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    background: $base-color2;
+    width: 30%;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(41, 41, 41);
+
+    @include mobile{
+        width: auto;
+        margin: 0;
+    }
+}
+
+.about{
+    background: $base-color1;
+    color: white;
+    display: flex;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(41, 41, 41);
+
+    &--left{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        @include mobile{
+            width: auto;
+            display: block;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+
+    &--right{
+        width: 50%;
+        
+        @include mobile{
+            width: auto;
+        }
+    }
+
+    &__text{
+        width: 50%;
+
+        @include mobile{
+            width: auto;
+        }
+    }
+
+    &__img{
+        width: 100%;
+    }
+
+    @include mobile{
+        display: block;
+    }
+}
+
+.footer{
+    height: 100px;
+    background: $base-color1;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(41, 41, 41);
+    display: flex;
+    align-items: center;
+
+    @include mobile{
+        height: 220px;
+    }
+}
+
+.social2{
+
+    img{
+        width: 50px;
+        margin: 10px;
+        float: left;
+    }
+}
+
+.social1{
+
+    img{
+        width: 50px;
+        float: right;
+        margin: 10px;
+    }
+}

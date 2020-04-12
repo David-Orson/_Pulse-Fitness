@@ -1,0 +1,267 @@
+body {
+  background: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title--accentColor {
+  color: #328c96;
+}
+
+.nav {
+  background: #161616;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav img {
+  margin-bottom: -30px;
+  margin-top: -30px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media (max-width: 1170px) {
+  .header {
+    display: block;
+  }
+}
+
+.cta {
+  padding: 20px;
+}
+
+.photo {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1170px) {
+  .photo {
+    width: 100%;
+  }
+}
+
+.header__right {
+  color: white;
+  background: #aa0a0a;
+  width: 50vw;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1170px) {
+  .header__right {
+    width: 100%;
+  }
+  .header__right img {
+    width: 80px;
+  }
+}
+
+.cta__img {
+  width: 50%;
+}
+
+.photo__img {
+  width: 100%;
+}
+
+@media (max-width: 1170px) {
+  .photo__img {
+    max-height: 40vh;
+  }
+}
+
+.titleBanner {
+  background-color: #161616;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titleBanner__title {
+  color: #aa0a0a;
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section img {
+  width: 100%;
+}
+
+.section__facilities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1170px) {
+  .section__facilities {
+    display: block;
+  }
+}
+
+@media (max-width: 1170px) {
+  .section {
+    display: block;
+  }
+}
+
+.facilities__card {
+  margin: 25px;
+  padding: 20px;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  background: #aa0a0a;
+  width: 30%;
+}
+
+@media (max-width: 1170px) {
+  .facilities__card {
+    width: auto;
+    margin: 0;
+  }
+}
+
+.about {
+  background: #161616;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about--left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media (max-width: 1170px) {
+  .about--left {
+    width: auto;
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+.about--right {
+  width: 50%;
+}
+
+@media (max-width: 1170px) {
+  .about--right {
+    width: auto;
+  }
+}
+
+.about__text {
+  width: 50%;
+}
+
+@media (max-width: 1170px) {
+  .about__text {
+    width: auto;
+  }
+}
+
+.about__img {
+  width: 100%;
+}
+
+@media (max-width: 1170px) {
+  .about {
+    display: block;
+  }
+}
+
+.footer {
+  height: 100px;
+  background: #161616;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1170px) {
+  .footer {
+    height: 220px;
+  }
+}
+
+.social2 img {
+  width: 50px;
+  margin: 10px;
+  float: left;
+}
+
+.social1 img {
+  width: 50px;
+  float: right;
+  margin: 10px;
+}
+/*# sourceMappingURL=main.css.map */

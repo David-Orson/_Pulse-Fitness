@@ -1,0 +1,11 @@
+$base-color1: rgb(22, 22, 22);
+$base-color2: rgb(170, 10, 10);
+$accent-color: rgb(50, 140, 150,);
+
+$mobile: 1170px;
+
+@mixin mobile {
+    @media (max-width: $mobile) {
+        @content;
+    }
+}
